@@ -104,9 +104,25 @@ input[type=range]  {
     -webkit-appearance: none;
     margin-top: -4px;
   }
-  
-  @media (max-width: 700px) {
-      .config {
-          display: none;
+
+  @media (max-width: 900px) {
+      .config, .random-quote-bg {
+          width: 700px;
+      }
+
+      .random-quote {
+          width: 70%;
       }
   }
+
+  @media (max-width: 750px) {
+      .config, .random-quote-bg {
+          width: 400px;
+          
+      }
+
+      .random-quote {
+        width: 50%;
+    }
+  }
+
